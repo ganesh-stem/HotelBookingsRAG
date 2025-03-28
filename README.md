@@ -1,4 +1,4 @@
-# Hotel Booking Analytics System
+# Hotel Booking RAG System
 
 ## Overview
 
