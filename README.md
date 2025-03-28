@@ -12,7 +12,6 @@ This system provides a solution for hotel booking data management and analysis. 
 - CRUD operations for booking management (add, update, delete)
 - Batch import functionality for efficient data loading
 - Semantic search using FAISS vector database
-- Multi-threaded design for concurrent access
 - Comprehensive API health monitoring and performance evaluation
 
 ## System Components
