@@ -2,7 +2,7 @@
 
 ## Overview
 
-This system provides a comprehensive solution for hotel booking data management and analysis. It combines a Retrieval-Augmented Generation (RAG) system with a database backend to store, analyze, and provide insights from hotel booking data. The application features a RESTful API for data interaction, natural language querying capabilities, and tools for performance evaluation.
+This system provides a solution for hotel booking data management and analysis. It combines a Retrieval-Augmented Generation (RAG) system with a database backend to store, analyze, and provide insights from hotel booking data. The application features a RESTful API for data interaction, natural language querying capabilities, and tools for performance evaluation.
 
 ## Features
 
