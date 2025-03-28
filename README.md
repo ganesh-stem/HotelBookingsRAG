@@ -8,7 +8,7 @@ This system provides a solution for hotel booking data management and analysis. 
 
 - Database integration for persistent storage of hotel booking data
 - Natural language question answering about booking data
-- Advanced analytics with both natural language and structured queries
+- Analytics with both natural language and structured queries
 - CRUD operations for booking management (add, update, delete)
 - Batch import functionality for efficient data loading
 - Semantic search using FAISS vector database
