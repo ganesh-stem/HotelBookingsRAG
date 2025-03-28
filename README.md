@@ -97,12 +97,22 @@ This will initialize the database, load the dataset, and start the API server.
 ### Question Answering
 - `POST /ask`: Answer natural language questions about hotel bookings
   - Request body: `{"question": "What's the cancellation rate for resort hotels?"}`
-  - curl -X POST http://localhost:8008/ask -H "Content-Type: application/json" -d "{\"question\": \"Which country has the highest number of bookings?\"}"
+  - `curl -X POST http://localhost:8008/ask -H "Content-Type: application/json" -d "{\"question\": \"Which country has the highest number of bookings?\"}"`
+ 
+### Sample Queries
+- What was the total revenue for July 2017?: 3132959.07
+- What's the cancellation rate for resort hotels?: 27.763354967548675%
+- Which country has the highest number of bookings?: PRT (48590 bookings)
+- How many bookings include special requests?: 49072
+- Which countries had the highest booking cancellations?: PRT (27519 cancellations)
+- What percentage of bookings are from repeat guests?: 3.191222045397437%
+- What is the average price of hotel bookings?: 101.83
+
 ### Analytics
 - `POST /analytics`: Get analytics based on natural language or structured queries
   - Natural language query: `{"query": "Show me revenue by month for 2017"}`
   - Structured query: `{"filters": {"hotel": "Resort Hotel"}, "metrics": ["revenue", "cancellation_rate"]}`
-  - curl -X POST http://localhost:8008/analytics -H "Content-Type: application/json" -d "{\"query\": \"Show me the cancellation rate for resort hotels\"}"
+  - `curl -X POST http://localhost:8008/analytics -H "Content-Type: application/json" -d "{\"query\": \"Show me the cancellation rate for resort hotels\"}"`
     
 ### Booking Management
 - `POST /bookings`: Add a new booking
